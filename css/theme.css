@@ -1,0 +1,683 @@
+[data-theme="Por defecto"] {/*------------------ TEMA BLANCO ------------------------------------------------------*/
+    --cabe_color:#6c64db;
+    --cabe_text:#ffffff;
+/*------------------------------------------- BODY ----------------------------------------------------------*/
+    --body_color:#ffffff;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #a3a1bb;
+    --color_fscroll: #5c54c9;
+/*--------------------------------------- MENU DESPLEGADO ---------------------------------------------------*/
+    --icon_color: #ffffff;
+    --menu_color:#3b3975;
+    --hover_mend:#5c54c9;
+    --select: #5b54b6;
+/*----------------------------------------- MENU PLEGADO ----------------------------------------------------*/
+    --menu_Ple:#524bb6;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#3b3975;
+    --selectd:#4e489e;
+/*----------------------------------------- DATOS USUARIO ---------------------------------------------------*/
+    --usu_color:#6c64db;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+/*------------------------------------- CONTENERDOR PRINCIPAL -----------------------------------------------*/
+    --fondo_cont:#ffffff;
+    --color_tit:#000;
+    --boton_tit:#bdbae1;
+    --boton_hover:#a8a5ca;
+    --color_tabla:#6c64db;
+    --color_iconOs:#6c64db;
+    --color_icoOsHov:#837aff;
+    --color_bar_bucs:#615ac580;
+    --color_botinfo:#9791ee;
+    --color_input:#fff;
+    --color_linea_input:#ffffff;
+/*------------------------------------------ VISTA INICIO ---------------------------------------------------*/
+    --caja_color:#ececec7e;
+    --borde_caja:#bdbdbd;
+    --borde_hov_caja:#5650a8;
+    --caja_hov_color:#6c64db49;
+    --boton_inicio:#5650a8;
+    --boton_hov_inicio:#6a63c9e3;
+    --iconos_ini:#5650a8;
+    --boton_ayud_hover:#443e8b;
+    --boton_modal:#6c64db;
+}
+
+[data-theme="Morado Oscuro"] {/*---------------------- TEMA OSCURO ---------------------------------------------------*/
+    --cabe_color:#242047;
+    --cabe_text:#ffffff;
+/*----------------------------------------------- BODY ------------------------------------------------------*/
+    --body_color:#000000;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #55509e;    
+    --color_fscroll: #242047;
+/*----------------------------------------- MENU DESPLEGADO -------------------------------------------------*/
+    --icon_color: #ffffff;
+    --menu_color:#191630;
+    --hover_mend:#3b3975;
+    --select: #353464;
+/*------------------------------------------- MENU PLEGADO --------------------------------------------------*/
+    --menu_Ple:#2c2755;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#3b3975;
+    --selectd:#423e77;
+/*------------------------------------------ DATOS USUARIO ---------------------------------------------------*/
+    --usu_color:#373272;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+/*--------------------------------------- CONTENERDOR PRINCIPAL ----------------------------------------------*/
+    --fondo_cont:#6b6b6b;
+    --color_tit:#fff;
+    --boton_tit:#5650ac;
+    --boton_hover:#4c4797;
+    --color_tabla:#464191;
+    --color_iconOs:#4e499e;
+    --color_icoOsHov:#837aff;
+    --color_bar_bucs:#615ac580;
+    --color_botinfo:#4e499e;
+    --color_input:#575757;
+    --color_linea_input:#888888;
+/*--------------------------------------------- VISTA INICIO -------------------------------------------------*/
+    --caja_color:#5858587e;
+    --borde_caja:#575757;
+    --borde_hov_caja:#584eb6;
+    --caja_hov_color:#4a40bd46;
+    --boton_inicio:#343069;
+    --boton_hov_inicio:#47419be3;
+    --boton_ayud_hover:#443e8b;
+    --iconos_ini:#393483;
+    --boton_modal:#4c4797;
+}
+[data-theme="Negro"] {
+    --cabe_color:#202020;
+    --cabe_text:#ffffff;
+
+    --body_color:#000000;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #5c2a2a;    
+    --color_fscroll: #000000;
+
+    --icon_color: #ff5050;
+    --menu_color:#000000;
+    --hover_mend:#3a1c1c;
+    --select: #3b1a1a;
+
+    --menu_Ple:#1a1a1a;
+    --icon_menuPle:#ff6868;
+    --select_act:#dfdfdf;
+    --hover_men:#4e2020;
+    --selectd:#4d2828;
+
+    --usu_color:#222222;
+    --text_usu:#ffffff;
+    --icon_usu: #ff7474;
+
+    --fondo_cont:#333333;
+    --color_tit:#fff;
+    --boton_tit:#633030;
+    --boton_hover:#492222;
+    --color_tabla:#552626;
+    --color_iconOs:#ffffff;
+    --color_icoOsHov:#c55f5f;
+    --color_bar_bucs:#8a404080;
+    --color_botinfo:#421616;
+    --color_input:#575757;
+    --color_linea_input:#888888;
+
+    --caja_color:#5858587e;
+    --borde_caja:#575757;
+    --borde_hov_caja:#7a3636;
+    --caja_hov_color:#802e2e46;
+    --boton_inicio:#ffffff;
+    --boton_hov_inicio:#572525e3;
+    --boton_ayud_hover:#7c1717;
+    --iconos_ini:#ffffff;
+    --boton_modal:#442020;
+}
+
+
+[data-theme="Rojo"] {
+    --cabe_color:#db6464;
+    --cabe_text:#ffffff;
+
+    --body_color:#ffffff;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #bba1a1;
+    --color_fscroll: #c95454;
+
+    --icon_color: #ffffff;
+    --menu_color:#753939;
+    --hover_mend:#c95454;
+    --select: #b65754;
+
+    --menu_Ple:#c95454;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#753939;
+    --selectd:#9e4848;
+
+    --usu_color:#db6464;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+
+    --fondo_cont:#ffffff;
+    --color_tit:#000;
+    --boton_tit:#e1baba;
+    --boton_hover:#caa5a5;
+    --color_tabla:#db6464;
+    --color_iconOs:#db6464;
+    --color_icoOsHov:#ff7a7a;
+    --color_bar_bucs:#c56a5a80;
+    --color_botinfo:#ee9191;
+    --color_input:#fff;
+    --color_linea_input:#ffffff;
+
+    --caja_color:#ececec7e;
+    --borde_caja:#bdbdbd;
+    --borde_hov_caja:#a85050;
+    --caja_hov_color:#db646449;
+    --boton_inicio:#a85050;
+    --boton_hov_inicio:#c96363e3;
+    --boton_ayud_hover:#8b433e;
+    --iconos_ini:#a85050;
+    --boton_modal:#db6464;
+}
+[data-theme="Rojo Oscuro"] {
+    --cabe_color:#472020;
+    --cabe_text:#ffffff;
+
+    --body_color:#000000;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #9e5050;    
+    --color_fscroll: #472020;
+
+    --icon_color: #ffffff;
+    --menu_color:#301616;
+    --hover_mend:#753939;
+    --select: #643434;
+
+    --menu_Ple:#552727;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#753939;
+    --selectd:#773e3e;
+
+    --usu_color:#723232;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+
+    --fondo_cont:#6b6b6b;
+    --color_tit:#fff;
+    --boton_tit:#ac5050;
+    --boton_hover:#974747;
+    --color_tabla:#914141;
+    --color_iconOs:#ff9797;
+    --color_icoOsHov:#ff7a7a;
+    --color_bar_bucs:#c55a5a80;
+    --color_botinfo:#9e4949;
+    --color_input:#575757;
+    --color_linea_input:#888888;
+
+    --caja_color:#5858587e;
+    --borde_caja:#575757;
+    --borde_hov_caja:#b64e4e;
+    --caja_hov_color:#bd404046;
+    --boton_inicio:#693030;
+    --boton_hov_inicio:#9b4141e3;
+    --boton_ayud_hover:#8b3e3e;
+    --iconos_ini:#833434;
+    --boton_modal:#974747;
+}
+
+[data-theme="Azul"] {
+    --cabe_color:#477cb9;
+    --cabe_text:#ffffff;
+
+    --body_color:#ffffff;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #a1b5bb;
+    --color_fscroll: #4287c7;
+
+    --icon_color: #ffffff;
+    --menu_color:#113a68;
+    --hover_mend:#3671c9;
+    --select: #095694;
+
+    --menu_Ple:#124f94;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#1e5072;
+    --selectd:#0c416d;
+
+    --usu_color:#3c5791;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+
+    --fondo_cont:#ffffff;
+    --color_tit:#000;
+    --boton_tit:#bad6e1;
+    --boton_hover:#a5b1ca;
+    --color_tabla:#4085d4;
+    --color_iconOs:#3f8cd4;
+    --color_icoOsHov:#4b9dfa;
+    --color_bar_bucs:#226dc280;
+    --color_botinfo:#6291e7;
+    --color_input:#fff;
+    --color_linea_input:#ffffff;
+
+    --caja_color:#ececec7e;
+    --borde_caja:#bdbdbd;
+    --borde_hov_caja:#275ea5;
+    --caja_hov_color:#3366d649;
+    --boton_inicio:#2c57a7;
+    --boton_hov_inicio:#3d87cce3;
+    --boton_ayud_hover:#2b568f;
+    --iconos_ini:#366ba8;
+    --boton_modal:#4484d8;
+}
+[data-theme="Azul Oscuro"] {
+    --cabe_color:#202947;
+    --cabe_text:#ffffff;
+
+    --body_color:#000000;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #50659e;    
+    --color_fscroll: #202747;
+
+    --icon_color: #ffffff;
+    --menu_color:#161b30;
+    --hover_mend:#394775;
+    --select: #343b64;
+
+    --menu_Ple:#273255;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#394475;
+    --selectd:#3e4977;
+
+    --usu_color:#323e72;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+
+    --fondo_cont:#6b6b6b;
+    --color_tit:#fff;
+    --boton_tit:#5061ac;
+    --boton_hover:#476097;
+    --color_tabla:#415691;
+    --color_iconOs:#97a7ff;
+    --color_icoOsHov:#7a9dff;
+    --color_bar_bucs:#5a6ac580;
+    --color_botinfo:#49569e;
+    --color_input:#575757;
+    --color_linea_input:#888888;
+
+    --caja_color:#5858587e;
+    --borde_caja:#575757;
+    --borde_hov_caja:#4e61b6;
+    --caja_hov_color:#404dbd46;
+    --boton_inicio:#303f69;
+    --boton_hov_inicio:#414a9be3;
+    --boton_ayud_hover:#3e508b;
+    --iconos_ini:#344983;
+    --boton_modal:#475397;
+}
+
+
+[data-theme="Verde"] {
+    --cabe_color:#54b383;
+    --cabe_text:#ffffff;
+
+    --body_color:#ffffff;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #a3a1bb;
+    --color_fscroll: #49ac8b;
+
+    --icon_color: #ffffff;
+    --menu_color:#39755c;
+    --hover_mend:#43a56f;
+    --select: #5d6d67;
+
+    --menu_Ple:#3f9775;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#39755c;
+    --selectd:#52635c;
+
+    --usu_color:rgb(92, 92, 92);
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+
+    --fondo_cont:#ffffff;
+    --color_tit:#000;
+    --boton_tit:#bae1ca;
+    --boton_hover:#a5cab3;
+    --color_tabla:#53b67c;
+    --color_btnvideo:#8bddad;
+    --color_iconOs:#489e76;
+    --color_icoOsHov:#68d8a0;
+    --color_bar_bucs:#4ea871c7;
+    --color_botinfo:#7ac9a4;
+    --color_input:#fff;
+    --color_linea_input:#ffffff;
+
+    --caja_color:#ececec7e;
+    --borde_caja:#bdbdbd;
+    --borde_hov_caja:#428b69;
+    --caja_hov_color:#55c27f49;
+    --boton_inicio:#489766;
+    --boton_hov_inicio:#58b385e3;
+    --boton_ayud_hover:#367a60;
+    --iconos_ini:#4b9e85;
+    --boton_modal:#64dba9;
+}
+[data-theme="Verde Oscuro"] {
+    --cabe_color:#204725;
+    --cabe_text:#ffffff;
+
+    --body_color:#000000;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #509e5d;    
+    --color_fscroll: #204722;
+
+    --icon_color: #ffffff;
+    --menu_color:#163017;
+    --hover_mend:#39753e;
+    --select: #366434;
+
+    --menu_Ple:#275536;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#397543;
+    --selectd:#3e7748;
+
+    --usu_color:#327242;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+
+    --fondo_cont:#6b6b6b;
+    --color_tit:#fff;
+    --boton_tit:#50ac5c;
+    --boton_hover:#47974b;
+    --color_tabla:#41914e;
+    --color_iconOs:#97ffa8;
+    --color_icoOsHov:#7aff85;
+    --color_bar_bucs:#5ac56880;
+    --color_botinfo:#499e54;
+    --color_input:#575757;
+    --color_linea_input:#888888;
+
+    --caja_color:#5858587e;
+    --borde_caja:#575757;
+    --borde_hov_caja:#3f9747;
+    --caja_hov_color:#34964546;
+    --boton_inicio:#2a5c2e;
+    --boton_hov_inicio:#358039e3;
+    --boton_ayud_hover:#367534;
+    --iconos_ini:#2d6d2b;
+    --boton_modal:#3e8147;
+}
+
+[data-theme="Amarillo"] {
+    --cabe_color:#ca9522;
+    --cabe_text:#ffffff;
+
+    --body_color:#ffffff;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #a3a1bb;
+    --color_fscroll: #dba45c;
+
+    --icon_color: #ffffff;
+    --menu_color:#775311;
+    --hover_mend:#77726b;
+    --select: #696866;
+
+    --menu_Ple:#a7771f;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#836423;
+    --selectd:#614b2f;
+
+    --usu_color:#383838;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+
+    --fondo_cont:#ffffff;
+    --color_tit:#000;
+    --boton_tit:#e6a557;
+    --boton_hover:#9b9488;
+    --color_tabla:#d6a232;
+    --color_iconOs:#a86110;
+    --color_icoOsHov:#ffc17a;
+    --color_botinfo:#ffffff;
+    --color_input:#fff;
+    --color_linea_input:#ffffff;
+
+    --caja_color:#ececec7e;
+    --borde_caja:#bdbdbd;
+    --borde_hov_caja:#a88250;
+    --caja_hov_color:#dba86449;
+    --boton_inicio:#a88550;
+    --boton_hov_inicio:#c9a563e3;
+    --color_bar_bucs:#c59a5acb;
+    --boton_ayud_hover:#a8703c;
+    --iconos_ini:#a88950;
+    --boton_modal:#dba864;
+}
+[data-theme="Amarillo Oscuro"] {
+    --cabe_color:#4d3f15;
+    --cabe_text:#ffffff;
+
+    --body_color:#000000;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #9e8350;    
+    --color_fscroll: #473920;
+
+    --icon_color: #ffffff;
+    --menu_color:#302a16;
+    --hover_mend:#755d39;
+    --select: #645334;
+
+    --menu_Ple:#554527;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#755939;
+    --selectd:#77653e;
+
+    --usu_color:#726132;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+
+    --fondo_cont:#6b6b6b;
+    --color_tit:#fff;
+    --boton_tit:#ac7950;
+    --boton_hover:#977447;
+    --color_tabla:#917141;
+    --color_iconOs:#ffde97;
+    --color_icoOsHov:#ffd07a;
+    --color_bar_bucs:#c59a5a80;
+    --color_botinfo:#9e8a49;
+    --color_input:#575757;
+    --color_linea_input:#888888;
+
+    --caja_color:#5858587e;
+    --borde_caja:#575757;
+    --borde_hov_caja:#857338;
+    --caja_hov_color:#9e7d3746;
+    --boton_inicio:#8b6719;
+    --boton_hov_inicio:#684c18e3;
+    --boton_ayud_hover:#423a1f;
+    --iconos_ini:#665d28;
+    --boton_modal:#796a38;
+}
+[data-theme="Naranja"] {/*------------------ TEMA BLANCO ------------------------------------------------------*/
+    --cabe_color:#e76938;
+    --cabe_text:#ffffff;
+/*------------------------------------------- BODY ----------------------------------------------------------*/
+    --body_color:#ffffff;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #a3a1bb;
+    --color_fscroll: #c76233;
+/*--------------------------------------- MENU DESPLEGADO ---------------------------------------------------*/
+    --icon_color: #ffffff;
+    --menu_color:#7e321b;
+    --hover_mend:#c75b2a;
+    --select: #b64f27;
+/*----------------------------------------- MENU PLEGADO ----------------------------------------------------*/
+    --menu_Ple:#c5591a;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#863c0b;
+    --selectd:#7e4917;
+/*----------------------------------------- DATOS USUARIO ---------------------------------------------------*/
+    --usu_color:#db6129;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+/*------------------------------------- CONTENERDOR PRINCIPAL -----------------------------------------------*/
+    --fondo_cont:#ffffff;
+    --color_tit:#000;
+    --boton_tit:#da9d84;
+    --boton_hover:#cfa28c;
+    --color_tabla:#db6a36;
+    --color_iconOs:#dd6f3c;
+    --color_icoOsHov:#fa793d;
+    --color_bar_bucs:#c5633580;
+    --color_botinfo:#eca280;
+    --color_input:#fff;
+    --color_linea_input:#ffffff;
+/*------------------------------------------ VISTA INICIO ---------------------------------------------------*/
+    --caja_color:#ececec7e;
+    --borde_caja:#bdbdbd;
+    --borde_hov_caja:#ac5330;
+    --caja_hov_color:#db9a6449;
+    --boton_inicio:#b4572c;
+    --boton_hov_inicio:#d16134e3;
+    --iconos_ini:#ac4525;
+    --boton_ayud_hover:#8f4920;
+    --boton_modal:#db703e;
+}
+[data-theme="Naranja Oscuro"] {/*------------------ TEMA BLANCO ------------------------------------------------------*/
+    --cabe_color:#9b4929;
+    --cabe_text:#ffffff;
+/*------------------------------------------- BODY ----------------------------------------------------------*/
+    --body_color:#424242;
+    --text_color:#ffffff;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #a3a1bb;
+    --color_fscroll: #a55029;
+/*--------------------------------------- MENU DESPLEGADO ---------------------------------------------------*/
+    --icon_color: #c0c0c0;
+    --menu_color:#502011;
+    --hover_mend:#ac4e23;
+    --select: #7e381c;
+/*----------------------------------------- MENU PLEGADO ----------------------------------------------------*/
+    --menu_Ple:#8a3808;
+    --icon_menuPle:#ffffff;
+    --select_act:#dfdfdf;
+    --hover_men:#77360b;
+    --selectd:#7e4917;
+/*----------------------------------------- DATOS USUARIO ---------------------------------------------------*/
+    --usu_color:#8a3c18;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+/*------------------------------------- CONTENERDOR PRINCIPAL -----------------------------------------------*/
+    --fondo_cont:#3b3b3b;
+    --color_tit:rgb(255, 255, 255);
+    --boton_tit:#b3806c;
+    --boton_hover:#b18b78;
+    --color_tabla:#a74b21;
+    --color_iconOs:#b14412;
+    --color_icoOsHov:#ce6332;
+    --color_bar_bucs:#a8542c80;
+    --color_botinfo:#c98a6d;
+    --color_input:rgb(107, 107, 107);
+    --color_linea_input:#383838;
+/*------------------------------------------ VISTA INICIO ---------------------------------------------------*/
+    --caja_color:#7272727e;
+    --borde_caja:#949494;
+    --borde_hov_caja:#a15e43;
+    --caja_hov_color:#be8a5f49;
+    --boton_inicio:#944a27;
+    --boton_hov_inicio:#b4552fe3;
+    --iconos_ini:#9b3e21;
+    --boton_ayud_hover:#7e421f;
+    --boton_modal:#c05f32;
+}
+
+[data-theme="Blanco"] {/*------------------ TEMA BLANCO ------------------------------------------------------*/
+    --cabe_color:#ffffff;
+    --cabe_text:#000000;
+/*------------------------------------------- BODY ----------------------------------------------------------*/
+    --body_color:#424242;
+    --text_color:#000000;
+    --tamaño_iconp:24px;
+    --tamaño_icond:26px;
+    --color_scroll: #575757;
+    --color_fscroll: #ffffff;
+/*--------------------------------------- MENU DESPLEGADO ---------------------------------------------------*/
+    --icon_color: #404040;
+    --menu_color:#ffffff;
+    --hover_mend:#919191;
+    --select: #bdbdbd;
+/*----------------------------------------- MENU PLEGADO ----------------------------------------------------*/
+    --menu_Ple:#ffffff;
+    --icon_menuPle:#404040;
+    --select_act:#333333;
+    --hover_men:#888888;
+    --selectd:#cacaca;
+/*----------------------------------------- DATOS USUARIO ---------------------------------------------------*/
+    --usu_color:#919191;
+    --text_usu:#ffffff;
+    --icon_usu: #ffffff;
+/*------------------------------------- CONTENERDOR PRINCIPAL -----------------------------------------------*/
+    --fondo_cont:#fff;
+    --color_tit:#000;
+    --boton_tit:#747474;
+    --boton_hover:#7c7c7c;
+    --color_tabla:#575757;
+    --color_iconOs:#404040;
+    --color_icoOsHov:#fff;
+    --color_bar_bucs:#57575780;
+    --color_botinfo:#555555;
+    --color_input:rgb(107, 107, 107);
+    --color_linea_input:#cfcfcf;
+/*------------------------------------------ VISTA INICIO ---------------------------------------------------*/
+    --caja_color:#7272727e;
+    --borde_caja:#2c2c2c;
+    --borde_hov_caja:#505050;
+    --caja_hov_color:#646464b9;
+    --boton_inicio:#303030;
+    --boton_hov_inicio:#292929e3;
+    --iconos_ini:#161616;
+    --boton_ayud_hover:#808080;
+    --boton_modal:#8d8d8d;
+}
+
+

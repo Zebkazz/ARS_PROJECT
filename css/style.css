@@ -1,0 +1,704 @@
+/* -----------------------------Contenedor principal--------------------------------- */
+.princi{
+    padding: 20px;
+    height: auto;
+    min-height: 1000px;
+    background-color: var(--fondo_cont);
+    position: relative;
+    border-radius: 0px 0px 0px 35px;
+    box-shadow: 10px -10px 30px  black;
+    transition: all 800ms;
+    overflow-y: hidden;
+}
+.form-group label{
+    color: var(--color_tit);
+}
+.form-group input{
+    background-color: var(--color_input);
+    color: var(--color_tit);
+    border-color: #888888;
+    border-radius: 10px;
+}
+.form-group input:focus{
+    background-color: var(--color_input);
+    color: var(--color_tit);
+}
+.form-group select{
+    background-color: var(--color_input);
+    color: var(--color_tit);
+    border-color: #888888;
+    border-radius: 10px;
+}
+.form-group input[type=number]::-webkit-inner-spin-button, 
+.form-group input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.form-group input[type=number] {
+     -moz-appearance:textfield; 
+}
+/* ----------------------------- Titulos principales--------------------------------- */
+.tiu{
+    font-size: 2.5rem;
+    font-family: 'nunito-700';
+    margin-left: 20px;
+    color: var(--color_tit);
+}
+.tiup{
+    font-family: 'nunito-700';
+    margin-left: 75px;
+    color: var(--color_tit);
+    margin-bottom: 10px;
+}
+#vimi{
+    color: var(--color_iconOs);
+    margin-right: 10px;
+}
+.tit{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    color: var(--color_tit);
+}
+#i{
+    font-size: 2.3rem;
+    margin-right: 10px;
+    color: var(--color_iconOs);
+}
+
+/* ----------------------------- Botones Esconder y Aparecer--------------------------------- */
+.btnven{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#mos, #mosOne{
+    display: none;
+}
+#mosy{
+    display: none;
+}
+.icoi{
+    background-color:var(--boton_tit);
+    margin-left: 85px;
+    width: 135px;
+    height: 38px;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms;
+    user-select: none;
+}
+.icoi:hover {
+    background-color:var(--boton_hover);
+}
+.icoi h6{
+    margin: 0px;
+    margin-left: 7px;
+    font-family: 'nunito-700';
+    letter-spacing: 0.5px;
+}
+.icoi:hover h6{
+    user-select: none;
+    font-family: 'nunito-800';
+}
+.ti{
+    color: var(--color_iconOs);
+    font-size: 2rem; 
+}
+.icoi:hover .ti{
+    color: var(--menu_Ple);
+}
+
+/* -----------------------------Contenedor principal de vistas--------------------------------- */
+#conta{
+    transition: all 300ms;
+    background-color: var(--fondo_cont);
+    user-select: none;
+    height: var(--tam_inic);
+    position: relative;
+    top: -5px;
+}
+
+#example{
+    position: relative;
+    z-index: 100;
+    background-color: var(--fondo_cont);
+    min-height: 38vw;
+}
+/* -----------------------------Contenedor principal de inicio--------------------------------- */
+.cont{
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+#img_vini{
+    top: 20px;
+    width: 50vw;
+    height: 40vw;
+    position: absolute;
+    z-index: -1;
+    border-radius: 0px;
+    bottom: 0px;
+    right: 0px;
+    opacity: 60%;
+}
+.caja{
+    position: relative;
+    z-index: 2;
+    background-color: var(--caja_color);
+    border: 3px solid;
+    border-color: var(--borde_caja);
+    width: 310px;
+    height: 300px;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all 300ms;
+}
+.caja:hover{
+    transition: all 300ms;
+    padding: 20px;
+    border-color: var(--borde_hov_caja);
+    user-select: none;
+    background-color: var(--caja_hov_color);
+}
+.caja h1{
+    width: 100%;
+    font-size: 2.1rem;
+    color: var(--color_tit);
+}
+.caja:hover h1{
+    color: var(--color_tit);
+    font-family: "nunito-700";
+}
+.caja h1 .ca{
+    color: var(--iconos_ini);
+}
+.iniopc {
+    margin-top: 10px;
+}
+.iniopc a{
+    text-decoration: none;
+}
+.iniopc a:hover{
+    color: #fff;
+}
+.buini{
+    background-color: var(--boton_hov_inicio);
+    padding: 12px;
+    width: 250px;
+    border-radius: 15px;
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: all 300ms;
+    color: rgb(216, 216, 216);
+}
+.buini:hover{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-left: 8px;
+    transition: all 300ms;
+    background-color: var(--boton_ayud_hover);
+    cursor:default;
+}
+
+.oini{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.inivideo{
+    width: auto;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* ----------------------------------------------botones de formulario--------------------------------------- */
+
+.bra{
+    margin-right: 10px;
+    font-size: 2rem;
+    color: var(--color_iconOs);
+}
+.btn{
+    background-color: var(--boton_tit);
+    color: var(--color_tit);
+    font-family: 'nunito-700';
+    width: 170px;
+    border: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.btn:hover{
+    background-color: var(--color_botinfo);
+    color:var(--color_tit);
+    border: 0px;
+    font-size: 1.1rem;
+}
+/* -----------------------------------------------Estilo Vista Factura-------------------------------------- */
+.cancel{
+    position: relative;
+    background-color: var(--boton_tit);
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    top: -44px;
+    left: 179px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: var(--color_icoOsHov);
+}
+.cancel:hover{
+    background-color: #e05f56;
+    color: var(--color_icoOsHov);
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: var(--color_input);
+}
+.fact_btn{
+    width: 212px!important; 
+    right: 175px;
+    margin-left: 20px;
+}
+.Guardar_fact{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nom_produt_fact{
+    display: flex;
+    align-items:center;
+}
+.nom_produt_fact h5{
+    padding-right: 10px;
+    font-size: 1rem;
+    font-family: 'nunito-800';
+}
+.kitele{
+    background-color: #db6464;
+    color: #fff;
+}
+.kitele:focus{
+    background-color: #db6464;
+    color: #fff;
+    border: none;
+}
+.input-wrapper {
+  position: relative;
+  width: 120px;
+}
+.input-icon {
+  color: #fff;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ultima{
+    display: flex;
+    flex-direction: row;
+}
+.otrr{
+    left: 245px!important;
+     top:20px!important;
+}
+.otr{
+    top: 455px!important;
+    left: 275px!important;
+}
+
+/* ----------------------------------------------botones ventana modal perfil--------------------------------------- */
+.modal-content {
+    border:none;
+    border-radius: 0.8rem;
+    background-color: var(--fondo_cont);
+}
+.modal-body h5, .modal-header h2{
+    font-family: 'nunito-800';
+}   
+.modal-header {
+    background-color: #6c64db71;
+    border-radius: 10px 10px 0px 0px;
+}
+.modal-body{
+    margin-left: 20px;
+    /* background-color: var(--fondo_cont); */
+}
+.btnmogu, .btnmoca{
+    width: 150px;
+    height: 35px;
+    background-color: #afacdb;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'nunito-700';
+    transition: all 100ms;
+    user-select: none;
+}
+.btnmoca:hover{
+    background-color: #c7453c;
+    color: white;
+    font-family: 'nunito-800';
+}
+.btnmoca:hover .bomo{
+    color: white;
+}
+.btnmogu:hover{
+    background-color: #3ab463;
+    color: white;
+    font-family: 'nunito-800';
+    font-size: 1rem;
+}
+.btnmogu:hover .bomo {
+    color: white;
+}
+.bomo{
+    color: #6c64db;
+    margin-right: 10px;
+    font-size: 1.4rem;
+    margin-left: 5px;
+}
+
+.never{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.never_butt{
+    color: var(--boton_modal);
+    font-size: 2.5rem;
+}
+.never_butt:hover{
+    color: #c7453c;
+    font-size: 2.6rem;
+}
+.dpag{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    user-select: none;
+}
+.iconper{
+    width: 15px;
+    height: 15px;
+    padding-right: 40px;
+}
+.per{
+    color: var(--iconos_ini);
+    font-size: 1.2rem;
+    padding-left: 5px;
+}
+.form-check-input:checked {
+    background-color: var(--iconos_ini);
+    border-color: var(--iconos_ini);
+}
+.form-check-input:checked:focus {
+    outline: 0 none;
+}
+.bt-fact{
+    height: 40px;
+    margin: 1rem 0rem;
+    margin-right: 10px;
+    padding: 15px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: var(--boton_tit);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.guasave{
+    width: 220px;
+    border: none;
+}
+/* ---------------------------------------------- Botones de informacion inicio --------------------------------------- */
+.infor{
+    display: flex;
+    margin-top: 5px;
+}
+.inforv{
+    margin-top: 6px;
+    position: relative;
+    background-color: var(--boton_tit);
+    width: 39px;
+    height: 39px;
+    border-radius: 6px;
+    top: -56px;
+    left: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: var(--color_icoOsHov);
+}
+.btnvideo{
+    width: 40px;
+    height: 40px;
+    padding: 2px 4px ;
+    font-size: 25px;
+    color: var(--color_iconOs);
+    background-color: var(--color_btnvideo);
+    text-align: center;
+    border-radius: 6px;
+    border:1px solid;
+    margin-right:10px;
+    margin-top: 8px;
+}
+.btnvideo:hover{
+    color: var(--color_icoOsHov);
+    background-color:  var(--color_iconOs);
+}
+.info{
+    display: none;
+    background-color: var(--color_botinfo);
+    color: var(--color_tit);
+    left: 10px;
+    position: absolute;
+    margin-left: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px; 
+    z-index: 999;
+    height: 150px;
+    width: 280px;
+}
+
+#inf2, #inf4, #inf6, #inf8, #inf10, #inf12, #inf14, #inf16, #inf18, #inf20{
+    display: none;
+}
+/* ---------------------------------------------- Botones de informacion vistas--------------------------------------- */
+.infovis {
+    display: none;
+    flex-direction: column;
+    background-color: var(--boton_tit);
+    color: var(--color_tit);
+    left: 148px;
+    position: absolute;
+    margin-left: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 999;
+    height: 160px;
+    width: 280px;
+    top: 72px;
+}
+.textayuda{
+    font-size: 0.8rem;
+    width: 100%;
+    margin-top: 5px;
+}
+.textayudaini{
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.otrleft{
+    left: 245px; 
+    top:20px;
+}
+.vi{
+    font-size: 35px;
+    color: var(--color_iconOs);
+}
+.vi:hover{
+    color: var(--boton_ayud_hover);
+}
+.inforv:hover{
+    color: var(--boton_ayud_hover);
+}
+
+/* ---------------------------------------------- Datos empresa --------------------------------------- */
+.unopersonal{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    user-select: none;
+}
+.info_empresa{
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info_empresa .logo_emp{
+    width: 27vw;
+    height: 27vw;
+    padding: 10px;
+    border: 1px solid;
+    margin: 20px 0px;
+    background-color: var(--cabe_color);
+}
+.info_emp{
+    font-size: 1.4rem;
+    margin-left: 3rem;
+}
+.info_emp h1{
+    font-family: 'nunito-800';
+    letter-spacing: 1px;
+}
+.info_emp h2{
+    font-family: 'nunito-700';
+    letter-spacing: 1px;
+}
+#infoper{
+    margin-left: -50px;
+    width: 700px;
+}
+.visemp{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 30px;
+}
+
+
+/* ----------------------------------------------footer vista inicio--------------------------------------- */
+.tiu_footer{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: var(--color_tit);
+    width: auto;
+}
+.tex_foor{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: var(--color_tit);
+}
+.ini_footer{
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.ini_footer div{
+    margin-left: 10px;
+}
+.ini_footer div h6{
+    color: var(--color_tit);
+}
+
+/* ---------------------------------------------- Responsive princi --------------------------------------- */
+@media screen and (min-width: 1366px){
+    .princi{
+        padding: 20px;
+        height: auto;
+        min-height:882px;
+        background-color: var(--fondo_cont);
+        position: relative;
+        border-radius: 0px 0px 0px 35px;
+        box-shadow: 10px -10px 30px  black;
+        transition: all 800ms;
+        overflow-y: hidden;
+    }
+}
+@media screen and (max-width: 1266px){
+    #infoper{
+        margin-left: 0px;
+        width: 85vw;
+    }
+    .unopersonal{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    .cont{
+        justify-content: center;
+    }
+    .caja {
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+    #conta{
+    margin-bottom: var(--tam_mg);
+    }
+    .conta{
+        margin-bottom: 0px;
+    }
+    #example{
+    min-height: 93vh;
+    padding-top: 70px;
+    }
+    .btnvideo{
+    margin-right: 0px;
+    margin-top: 0px;
+    }
+    .infovis {
+    left: 18px;
+    margin-left: 0px;
+    top: 117px;
+    }
+    .ini_footer{
+        margin-top: 60px;
+    }
+    .otrr{
+        left: 20px!important;
+        top:75px!important;
+    }
+    .otr{
+        left: 0px!important;
+        top: 816px!important;
+    }
+    .btn{
+      margin-top: 15px;
+    }
+    .exam{
+        padding-top: 0px!important;
+    }
+    .unopersonal{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+    .info_empresa .logo_emp {
+        width: 280px;
+        height: 280px;
+    }
+    #infoper{
+        margin-left: 0px;
+        width: 85vw;
+    }
+        
+}
+
+
+

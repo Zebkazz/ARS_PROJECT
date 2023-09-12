@@ -1,0 +1,355 @@
+::placeholder { color: rgb(255, 255, 255)!important; }
+
+#tabladatos tbody tr td {
+    background-color: var(--color_linea_input);
+}
+#tabladatos_wrapper .dt-buttons{
+    margin-right: -6px;
+    position: absolute;
+    right: 0px;
+    top: -102.5px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.dt-acciones{
+    position: absolute;
+    right: 70px;
+    top: -120.5px;
+    color: var(--color_tit);
+}
+.buscarDatos{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    width: 38px;
+    height: 34px;
+    border-radius: 6px 0px 0px 6px;
+    background-color:var(--color_tabla);
+    top: -30px;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.dt-buttons button{
+    background-color: var(--boton_tit);
+    color: var( --color_icoOsHov);
+    border-radius: 6px;
+    border:none;
+    margin: 7px;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dat_tabla{
+    display: flex;
+    flex-direction: row;
+}
+.txtfot1{
+    padding: 20px;
+    user-select: none;
+}
+.foto{
+    width: 8rem;
+    height: 8rem;
+}
+/* ---------------------------------Hover botones imprimir-------------------------------- */
+.csv:hover{
+    background-color: #619bca!important;
+    border: none!important;
+}
+.excel:hover{
+    background-color: #76cc88!important;
+    border: none!important;
+}
+.pdf:hover{
+    background-color: #dd5c5c!important;
+    border: none!important;
+}
+#actuli:hover{
+    color: #3b7df8;
+}
+#activ:hover{
+    color: #76cc88;
+}
+#elim:hover{
+    color: #dd5c5c;
+}
+.ta{
+font-size: 25px;
+
+}
+/* -------------------------Responsive boton--------------------- */
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before{
+    background-color: var(--color_tabla);
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination li {
+    padding: 5px;
+    margin: 0px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    background-color: #00000000!important;
+}
+.page-item:not(:first-child) .page-link {
+    color: var(--color_tabla);
+    border-radius: 5px;
+}
+.page-item:first-child .page-link{
+    color: var(--color_tabla);
+    border-radius: 5px;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color:var(--color_tabla);
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+
+#tabladatos_filter input {
+    margin-top: -10px;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    background-color: var(--color_bar_bucs);
+    color: #fff;
+    left: 30px;
+    top: -20px;
+    width: 43.5vw;
+    min-height: 24px;
+    position: absolute;
+}
+
+#tabladatos_filter input:focus{
+    background: var(--color_bar_bucs);
+    outline: none;
+    color: #fff;
+}
+div.dataTables_wrapper div.dataTables_filter label {
+    color: var(--color_tit);
+}
+#tabla_fact thead tr th {
+    background-color:var(--color_tabla); 
+    color: #fff;
+    padding: 5px;
+}
+#tabla_fact tbody tr td {
+    border-top: 1px solid;
+    border-color: var(--color_tit);
+}
+#tabla_fact tfoot tr th {
+    background-color:var(--color_tabla); 
+    color: #fff;
+    padding: 5px;
+}
+
+
+
+#primera_esq{
+    border-radius: 10px 0px 0px 0px;
+    background-color:var(--color_tabla);
+}
+#segunda_esq{
+    border-radius: 0px 10px 0px 0px;
+    background-color:var(--color_tabla);
+}
+#tercera_esq{
+    border-radius: 0px 0px 0px 10px;
+    background-color:var(--color_tabla);
+}
+#cuarta_esq{
+    border-radius: 0px 0px 10px 0px;
+    background-color:var(--color_tabla);
+}
+
+td{
+    color: var(--color_tit);
+}
+
+
+table.dataTable thead>tr>th {
+    background-color: var(--color_tabla);
+    color: #fff;
+    height: 35px;
+    font-size: 18px;
+    font-family: 'Nunito-700';
+    text-align: center;
+}
+table.dataTable tfoot>tr>th {
+    text-align: left;
+    background-color: var(--color_tabla);
+    color:  #fff;
+    text-align: center;
+    border:  none;
+}
+
+.info_tabla{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.opctabla{
+    color: var(--color_iconOs);
+    font-size: 2rem;
+    padding: 10px;
+    user-select: none;
+}
+.editbtnpos{
+    background-color: #ffffff00;
+    border: none;
+    width: 31px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.opctabla:hover{
+    color: #3c368b;
+    font-size: 2.1rem;
+    padding: 9.6px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    min-width: 1.5em;
+    padding: 0.5em 1em;
+    margin-left: 8px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #ffffff!important;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: 'Nunito-800';
+    background-color: #ffffff4b;
+}
+.table>:not(caption)>*>*{
+    background-color:#e3e3e3;
+    border-bottom-width: 0px!important;
+}
+tbody tr:last-child th{
+    border-radius: 0px 0px 0px 15px;
+}
+.dataTables_paginate span .paginate_button:hover{
+    cursor: default;
+    color: #ffffff!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled{
+    cursor: default;
+    color: #ffffff81!important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+    border: none;
+    background-color: rgba(137, 138, 138, 0.377);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    border: none;
+    font-family: 'Nunito-800';
+}
+div.dataTables_wrapper div.dataTables_paginate {
+    margin-top: 10px;
+    background-color: var(--color_tabla);
+    padding: 10px;
+    border-radius: 10px;
+}
+table.dataTable.table-striped>tbody>tr.odd>* {
+    border: none;
+}
+
+
+div.dataTables_wrapper div.dataTables_info{
+    color: var(--color_tit);
+}
+@media screen and (max-width: 1024px){
+    .dt-acciones{
+        position: absolute;
+        right: 70px;
+        top: -55px;
+        color: var(--color_tit);
+    }
+    #tabladatos_wrapper .dt-buttons{
+        margin-right: -6px;
+        position: absolute;
+        right: 0px;
+        top: -40px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    
+    }
+}
+@media screen and (max-width: 768px){
+    table.dataTable thead>tr>th {
+        height: 35px;
+        font-size: 0.7rem;
+    }
+    .opctabla{
+        font-size: 1.5rem;
+        padding: 4px;
+    }
+    .opctabla:hover{
+        color: #3c368b;
+        font-size: 1.6rem;
+        padding: 4.6px;
+    }
+    .datos_tabla{
+        font-size: 0.8rem;
+    }
+    table.dataTable.table-striped>tbody>tr.odd>* {
+        font-size: 0.8rem;
+        padding: 2px;
+    }
+    table.dataTable td, table.dataTable th {
+        font-size: 0.8rem;
+        padding: 2px;
+    }
+    div.dataTables_wrapper div.dataTables_paginate {
+        margin-top: 20px;
+    }
+    div.dataTables_wrapper div.dataTables_filter{
+        margin-top: -0px;
+    }
+    .dt-acciones{
+        position: absolute;
+        right: 70px;
+        top: 10px;
+        color: var(--color_tit);
+    }
+    #tabladatos_filter input {
+        margin-top: -10px;
+        border-radius: 0px 6px 6px 0px;
+        border: none;
+        background-color: var(--color_bar_bucs);
+        color: #fff;
+        left: 30px;
+        top: -90px;
+        width: 63vw;
+        position: absolute;
+    }
+    .buscarDatos{
+        top: -30px;
+    }
+    .dat_tabla{
+        flex-direction: column;
+    }
+    .txtfot1{
+        padding: 10px;
+    }
+    .txtfot2{
+        padding: 10px;
+    }
+    .foto{
+        width: 6rem;
+        height: 6rem;
+    }
+
+}
